@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "AuthViewController.h"
+#import "DetailViewController.h"
+#import "DashViewController.h"
+#import "AnalyticsViewController.h"
+#import "ReportViewController.h"
+#import "MapViewController.h"
+#import "SentConfViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +21,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    AuthViewController *vc = [[AuthViewController alloc] init];
+    self.window.rootViewController = vc;
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = navigationController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

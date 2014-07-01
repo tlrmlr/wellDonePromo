@@ -19,6 +19,20 @@
 		A290AFAA1962631C001D4B5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A290AF921962631C001D4B5A /* UIKit.framework */; };
 		A290AFB21962631C001D4B5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A290AFB01962631C001D4B5A /* InfoPlist.strings */; };
 		A290AFB41962631C001D4B5A /* wellDonePromoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A290AFB31962631C001D4B5A /* wellDonePromoTests.m */; };
+		A290AFC019626394001D4B5A /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A290AFBE19626394001D4B5A /* AuthViewController.m */; };
+		A290AFC119626394001D4B5A /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A290AFBF19626394001D4B5A /* AuthViewController.xib */; };
+		A290AFC5196263BF001D4B5A /* DashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A290AFC3196263BF001D4B5A /* DashViewController.m */; };
+		A290AFC6196263BF001D4B5A /* DashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A290AFC4196263BF001D4B5A /* DashViewController.xib */; };
+		A290AFD0196263EF001D4B5A /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A290AFCE196263EF001D4B5A /* ReportViewController.m */; };
+		A290AFD1196263EF001D4B5A /* ReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A290AFCF196263EF001D4B5A /* ReportViewController.xib */; };
+		A290AFD519626400001D4B5A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A290AFD319626400001D4B5A /* DetailViewController.m */; };
+		A290AFD619626400001D4B5A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A290AFD419626400001D4B5A /* DetailViewController.xib */; };
+		A290AFDA1962641E001D4B5A /* AnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A290AFD81962641E001D4B5A /* AnalyticsViewController.m */; };
+		A290AFDB1962641E001D4B5A /* AnalyticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A290AFD91962641E001D4B5A /* AnalyticsViewController.xib */; };
+		A290AFE019626777001D4B5A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A290AFDE19626777001D4B5A /* MapViewController.m */; };
+		A290AFE119626777001D4B5A /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A290AFDF19626777001D4B5A /* MapViewController.xib */; };
+		A290AFE5196268EA001D4B5A /* SentConfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A290AFE3196268EA001D4B5A /* SentConfViewController.m */; };
+		A290AFE6196268EA001D4B5A /* SentConfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A290AFE4196268EA001D4B5A /* SentConfViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,27 @@
 		A290AFAF1962631C001D4B5A /* wellDonePromoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wellDonePromoTests-Info.plist"; sourceTree = "<group>"; };
 		A290AFB11962631C001D4B5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A290AFB31962631C001D4B5A /* wellDonePromoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wellDonePromoTests.m; sourceTree = "<group>"; };
+		A290AFBD19626394001D4B5A /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		A290AFBE19626394001D4B5A /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		A290AFBF19626394001D4B5A /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		A290AFC2196263BF001D4B5A /* DashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashViewController.h; sourceTree = "<group>"; };
+		A290AFC3196263BF001D4B5A /* DashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashViewController.m; sourceTree = "<group>"; };
+		A290AFC4196263BF001D4B5A /* DashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashViewController.xib; sourceTree = "<group>"; };
+		A290AFCD196263EF001D4B5A /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		A290AFCE196263EF001D4B5A /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		A290AFCF196263EF001D4B5A /* ReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportViewController.xib; sourceTree = "<group>"; };
+		A290AFD219626400001D4B5A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A290AFD319626400001D4B5A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A290AFD419626400001D4B5A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		A290AFD71962641E001D4B5A /* AnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
+		A290AFD81962641E001D4B5A /* AnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
+		A290AFD91962641E001D4B5A /* AnalyticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalyticsViewController.xib; sourceTree = "<group>"; };
+		A290AFDD19626777001D4B5A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A290AFDE19626777001D4B5A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A290AFDF19626777001D4B5A /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		A290AFE2196268EA001D4B5A /* SentConfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentConfViewController.h; sourceTree = "<group>"; };
+		A290AFE3196268EA001D4B5A /* SentConfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentConfViewController.m; sourceTree = "<group>"; };
+		A290AFE4196268EA001D4B5A /* SentConfViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentConfViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +142,7 @@
 		A290AF941962631C001D4B5A /* wellDonePromo */ = {
 			isa = PBXGroup;
 			children = (
+				A290AFDC19626421001D4B5A /* ViewControllers */,
 				A290AF9D1962631C001D4B5A /* AppDelegate.h */,
 				A290AF9E1962631C001D4B5A /* AppDelegate.m */,
 				A290AFA01962631C001D4B5A /* Images.xcassets */,
@@ -142,6 +178,34 @@
 				A290AFB01962631C001D4B5A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A290AFDC19626421001D4B5A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A290AFCD196263EF001D4B5A /* ReportViewController.h */,
+				A290AFCE196263EF001D4B5A /* ReportViewController.m */,
+				A290AFDD19626777001D4B5A /* MapViewController.h */,
+				A290AFE2196268EA001D4B5A /* SentConfViewController.h */,
+				A290AFE3196268EA001D4B5A /* SentConfViewController.m */,
+				A290AFE4196268EA001D4B5A /* SentConfViewController.xib */,
+				A290AFDE19626777001D4B5A /* MapViewController.m */,
+				A290AFDF19626777001D4B5A /* MapViewController.xib */,
+				A290AFCF196263EF001D4B5A /* ReportViewController.xib */,
+				A290AFBD19626394001D4B5A /* AuthViewController.h */,
+				A290AFC2196263BF001D4B5A /* DashViewController.h */,
+				A290AFD71962641E001D4B5A /* AnalyticsViewController.h */,
+				A290AFD81962641E001D4B5A /* AnalyticsViewController.m */,
+				A290AFD91962641E001D4B5A /* AnalyticsViewController.xib */,
+				A290AFC3196263BF001D4B5A /* DashViewController.m */,
+				A290AFD219626400001D4B5A /* DetailViewController.h */,
+				A290AFD319626400001D4B5A /* DetailViewController.m */,
+				A290AFD419626400001D4B5A /* DetailViewController.xib */,
+				A290AFC4196263BF001D4B5A /* DashViewController.xib */,
+				A290AFBE19626394001D4B5A /* AuthViewController.m */,
+				A290AFBF19626394001D4B5A /* AuthViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +283,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A290AFD1196263EF001D4B5A /* ReportViewController.xib in Resources */,
+				A290AFD619626400001D4B5A /* DetailViewController.xib in Resources */,
 				A290AF991962631C001D4B5A /* InfoPlist.strings in Resources */,
+				A290AFE6196268EA001D4B5A /* SentConfViewController.xib in Resources */,
+				A290AFE119626777001D4B5A /* MapViewController.xib in Resources */,
+				A290AFC119626394001D4B5A /* AuthViewController.xib in Resources */,
+				A290AFC6196263BF001D4B5A /* DashViewController.xib in Resources */,
+				A290AFDB1962641E001D4B5A /* AnalyticsViewController.xib in Resources */,
 				A290AFA11962631C001D4B5A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A290AFDA1962641E001D4B5A /* AnalyticsViewController.m in Sources */,
+				A290AFD0196263EF001D4B5A /* ReportViewController.m in Sources */,
+				A290AFE5196268EA001D4B5A /* SentConfViewController.m in Sources */,
 				A290AF9F1962631C001D4B5A /* AppDelegate.m in Sources */,
+				A290AFE019626777001D4B5A /* MapViewController.m in Sources */,
+				A290AFC019626394001D4B5A /* AuthViewController.m in Sources */,
+				A290AFC5196263BF001D4B5A /* DashViewController.m in Sources */,
 				A290AF9B1962631C001D4B5A /* main.m in Sources */,
+				A290AFD519626400001D4B5A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
